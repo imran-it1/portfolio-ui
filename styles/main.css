@@ -90,6 +90,115 @@ body {
     justify-content: flex-end;
 }
 
+/* Main Style */
+
+/* Recent Post Style */
+.recent-post {
+    background: #EDF7FA;
+    width: auto;
+    margin-bottom: 100px;
+}
+
+.recent-post-container {
+    width: 80vw;
+    margin: 20px auto;
+    padding-bottom: 15px;
+}
+
+.post-badge {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.badge-title {
+    color: #21243D;
+    font-size: 1.375rem;
+    font-weight: 400;
+}
+
+.viwe-all {
+    text-decoration: underline;
+    color: #00A8CC;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.recent-post-card-container .card-title {
+    color: #21243D;
+    font-size: 1.625rem;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.recent-post-card-container .card-info {
+    color: #21243D;
+    font-family: Heebo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 12px;
+}
+
+.card-info>span {
+    padding-right: 20px;
+}
+
+.card-info .border-left {
+    border-left: 2px solid #21243D;
+    padding-inline: 20px;
+}
+
+.recent-post-card-container .card-description {
+    color: #21243D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.recent-post-card-container {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.recent-post-card-container .card {
+    /* width: 418px;
+    height: 295px; */
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+    padding: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media Quary */
@@ -117,6 +226,16 @@ body {
         width: 100%;
         height: 230px;
     }
+
+
+    .recent-post-card-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .recent-post-container {
+        width: 90vw;
+    }
 }
 
 
@@ -137,5 +256,14 @@ body {
     .banner-img {
         justify-content: center;
         width: 100%;
+    }
+
+    .recent-post-card-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .recent-post-container {
+        width: 90vw;
     }
 }
