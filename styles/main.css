@@ -58,6 +58,9 @@ body {
     /* background-color: aqua; */
     margin: auto;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -366,13 +369,21 @@ body {
 
 
 @media screen and (max-width:576px) {
+
+
+
     .nav-links {
         justify-content: center;
     }
 
     .banner-container,
-    .feature-card {
+    .feature-card,
+    .nav-container {
         flex-direction: column;
+    }
+
+    .nav-container {
+        gap: 15px;
     }
 
     .banner-container {
