@@ -72,6 +72,20 @@ body {
     list-style: none;
 }
 
+.nav-links li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #FF6464;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links li:hover:after {
+    width: 100%;
+}
+
 .nav-links a {
     text-decoration: none;
     color: #000;
@@ -112,13 +126,21 @@ body {
 
 .banner-btn {
     border-radius: 2px;
-    background: var(--primary, #FF6464);
+    background: #FF6464;
     color: #fff;
     font-size: 1.25rem;
     font-weight: 500;
     border: 0;
     padding: 15px 20px;
+    cursor: pointer;
+    transition: 0.5s;
 }
+
+.banner-btn:hover {
+    background: #f84a4a;
+    outline: 1px solid black;
+}
+
 
 .banner-img {
     width: 100%;
@@ -318,6 +340,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 35px;
+    cursor: pointer;
 }
 
 .footer-text {
