@@ -1,3 +1,5 @@
+/* Google font import-- Heebo */
+
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* Universal Style */
@@ -12,4 +14,78 @@
 /* Body Style */
 body {
     font-family: 'Heebo', sans-serif;
+}
+
+/* Nav style */
+
+.nav-container {
+    max-width: 90vw;
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Banner Style */
+
+
+.banner-container {
+    /* border: 2px solid red; */
+    max-width: 80vw;
+    margin: 140px auto 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-title {
+    color: #21243D;
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.banner-description {
+    color: #21243D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+
+.banner-btn {
+    border-radius: 2px;
+    background: var(--primary, #FF6464);
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: 0;
+    padding: 15px 20px;
+}
+
+.banner-img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
