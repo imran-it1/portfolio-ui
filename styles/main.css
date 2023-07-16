@@ -287,12 +287,48 @@ body {
 }
 
 
+/* Work Style */
+
+.work-badge {
+    margin-bottom: 50px;
+}
+
+.work-badge-title {
+    color: #21243D;
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+.work-container {
+    width: 80vw;
+    margin: 20px auto;
+    padding-bottom: 15px;
+}
 
 
+/* Footer Style */
 
+.footer {
+    width: auto;
+    margin: auto;
+    margin-bottom: 54px;
+}
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
 
+.footer-text {
+    text-align: center;
+}
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 
 
 
